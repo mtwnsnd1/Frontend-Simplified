@@ -60,7 +60,7 @@ body {
     margin: 0 24px;
     text-decoration: none;
     font-weight: 500;
-    white-space: nowrap;
+    border-bottom: 2px solid transparent;
     font-size: 14px;
     font-weight: 600;
     padding-top: 4px;
@@ -91,6 +91,14 @@ body {
     opacity: 0;
 }
 
+.nav__link:hover:after {
+    opacity: 1;
+}
+
+.nav__link--primary:hover {
+    background-color: rgba(80,17,204);
+}
+
 .nav__links a {
     text-decoration: none;
     color: #4b5563;
@@ -112,6 +120,10 @@ body {
     font-weight: 500;
 }
 
+.btn__menu {
+    display: none;
+}
+
 .btn--primary {
     background-color: #6415ff;
     color: white;
@@ -119,11 +131,6 @@ body {
 
 .btn--primary:hover {
     background-color: rgba(80, 17, 204);
-}
-
-.menu__links {
-    display: flex;
-    flex-direction: column;
 }
 
 .hero {
@@ -968,6 +975,13 @@ color: #6c63ff;
     .footer {
         flex-direction: column;
         align-items: flex-start;
+        display: none;
+        flex-direction: column;
+        }
+    }
+
+    .nav__links {
+        display: none
     }
 }
 
