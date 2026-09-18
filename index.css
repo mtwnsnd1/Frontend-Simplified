@@ -121,6 +121,11 @@ body {
     background-color: rgba(80, 17, 204);
 }
 
+.menu__links {
+    display: flex;
+    flex-direction: column;
+}
+
 .hero {
     display: flex;
     align-items: center;
