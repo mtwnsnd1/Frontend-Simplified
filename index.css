@@ -130,6 +130,14 @@ body {
     font-weight: 500;
 }
 
+.menu {
+    display: none;
+}
+
+.menu--open {
+    display: flex;
+}
+
 .btn__menu {
     display: none;
 }
