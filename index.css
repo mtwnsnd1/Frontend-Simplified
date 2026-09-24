@@ -999,5 +999,9 @@ color: #6c63ff;
     .nav__links {
         display: none
     }
+
+    .btn__menu {
+        display: block;
+    }
 }
 
