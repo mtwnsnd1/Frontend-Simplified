@@ -667,16 +667,16 @@ body {
 }
 
 /*Testimonials*/
-section #Testimonials {
+#Testimonials {
     padding: 0px;
 }
 
-.Testimonials .container {
+#Testimonials .container {
     padding-top: 6rem;
     padding-bottom: 6rem;
 }
 
-#testimonials .row {
+#Testimonials .row {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -696,7 +696,7 @@ section #Testimonials {
     padding-left: 64px;
 }
 
-#testimonials .section__title {
+.testimonials .section__title {
     line-height: 1.25;
     margin-bottom: 1rem;
 }
@@ -740,7 +740,7 @@ section #Testimonials {
    justify-content: space-between;
 }
 
-.testinonial__profile {
+.testimonial__profile {
     display: flex;
     align-items: center;
 }
@@ -761,7 +761,7 @@ section #Testimonials {
     line-height: 1.5;
 }
 
-.testimonial buttons {
+.testimonial__buttons {
     display: flex;
     align-items: center;
 }
