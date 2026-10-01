@@ -696,9 +696,15 @@ body {
     padding-left: 64px;
 }
 
-.testimonials .section__title {
+#Testimonials .section__tag {
+    color: #6415ff;
+    letter-spacing: 0.15rem;
+    font-weight: 700;
+}
+
+#Testimonials .section__title {
     line-height: 1.25;
-    margin-bottom: 1rem;
+    margin-bottom: 24px;
 }
 
 .testimonial {
