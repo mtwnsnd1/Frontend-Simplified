@@ -867,9 +867,10 @@ main {
     border-radius: 9999px;
     padding: 12px 24px;
     border: none;
+    color: white
 }
 
-.start__button:hover:nth-child(1) {
+.start__button:nth-child(1):hover {
     background-color: rgba(229, 61, 62);
 }
 
@@ -879,9 +880,10 @@ main {
     border-radius: 9999px;
     padding: 12px 24px;
     background-color: transparent;
+    color: white;
 }
 
-.start__button:hover:nth-child(2) {
+.start__button:nth-child(2):hover {
     background-color: rgba(247, 250, 252);
     color: rgba(100, 21, 255)
 }
