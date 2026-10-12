@@ -414,8 +414,13 @@ body {
     margin-bottom: 32px;
 }
 
-#values .btn {
-    margin-top: 48px
+.quality__btn {
+    margin-top: 48px;
+    border-radius: 9999px; 
+    padding: 12px 24px;
+    border: none;
+    background-color: #6415ff;
+    color: white;
 }
 
 .value {
