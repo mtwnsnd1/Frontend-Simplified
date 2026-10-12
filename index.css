@@ -409,6 +409,11 @@ body {
     align-items: center;
 }
 
+ .values__description .section__tag {
+    letter-spacing: 0.1rem;
+    color: #6415ff;
+}
+
 #values .section__title {
     margin-top: 16px;
     margin-bottom: 32px;
