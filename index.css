@@ -293,80 +293,60 @@ body {
 }
 
 /* Quality Work Section */
-.quality {
-    padding: 80px 0;
-}
-
-.quality__content {
+#quality__row {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    gap: 60px;
-    max-width: 1200px;
-    margin: 0 auto;
+    align-items: center;
 }
 
-.quality__text {
-    flex: 1;
+#quality .section__title, #values .section__title {
+    height: 1.25;
 }
 
-.quality__label {
-    font-size: 14px;
-    font-weight: 700;
-    margin-bottom: 12px;
-    letter-spacing: 2px;
-}
-
-.quality__title {
-    font-size: 32px;
-    font-weight: 700;
-    margin-bottom: 20px;
+#quality .btn {
+    margin-top: 32px;
 }
 
 .quality__description {
-    font-size: 16px;
-    line-height: 1.6;
-    color: #555;
-    margin-bottom: 30px;
-    max-width: 500px;
+  max-width: 576px;
+  margin-right: 64px;
 }
 
-.quality__button {
-    padding: 12px 28px;
-    background-color: #6415ff;
-    color: white;
-    border: none;
-    border-radius: 20px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.2s ease;
+.quality__description, .quality__img--wrapper{
+   width: 50%;
 }
 
-.quality__button:hover {
-    background-color: #4b0fcc;
+.quality__img--wrapper {
+   border-radius: 4px;
+   border: 1px solid rgb(229, 231, 235);
+   position: relative;
+   margin: 0px 56px;
+   z-index: 2;
+   display: flex;
 }
 
-.quality__image img {
-    width: 100%;
-    max-width: 500px;
+.quality__grid {
+    transform: translateX(50%) translateY(50%) scaleX(1) scaleY(1);
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    fill: rgb(100, 21, 255);
+    --tw-text-opacity: 1;
+    color: rgba(100, 21, 255, var(--tw-text-opacity));
+    z-index: 0;
+    display: block;
 }
 
-.hero--right {
-   flex: 1;
-   max-width: 600px; 
+.quality__img {
+    z-index: 1;
 }
 
-.hero--right h2 {
-    margin-bottom: 0.75rem;
-}
-
-.hero--left {
-    flex: 1;
-}
-
-.hero--left img {
-    width: 100%;
-    max-width: 600px;
+#steps .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .eyebrow {
@@ -376,12 +356,6 @@ body {
     font-size: 0.9rem;
     text-transform: uppercase;
     margin-bottom: 0.75rem;
-}
-
-#steps .row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .steps__img--wrapper {
@@ -395,6 +369,7 @@ body {
 
 .steps__img {
     z-index: 2;
+    width: 100%;
 }
 
 .steps__description {
@@ -405,6 +380,12 @@ body {
     display: flex;
     align-items: flex-start;
     margin-top: 32px;
+}
+
+.steps__title {
+    font-size: 48px;
+    color: rgb(36, 62, 99);
+    margin-bottom: 16px;
 }
 
 .step__number {
@@ -448,9 +429,6 @@ body {
     color: rgb(100, 21, 255);
     fill: currentColor;
 }
-
-
-
 
 #values .row {
     display: flex;
