@@ -293,7 +293,7 @@ body {
 }
 
 /* Quality Work Section */
-#quality__row {
+#quality .row {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -303,8 +303,13 @@ body {
     height: 1.25;
 }
 
-#quality .btn {
+.btn {
     margin-top: 32px;
+    border-radius: 9999px;
+    border: none;
+    background-color: #6415ff;
+    color: white;
+    padding: 14px 28px;
 }
 
 .quality__description {
@@ -312,7 +317,13 @@ body {
   margin-right: 64px;
 }
 
-.quality__description, .quality__img--wrapper{
+.quality__description .section__tag {
+    letter-spacing: 0.1rem;
+    color: #6415ff;
+    font-weight: 700;
+}
+
+.quality__description, .quality__img--wrapper {
    width: 50%;
 }
 
@@ -341,6 +352,7 @@ body {
 
 .quality__img {
     z-index: 1;
+    width: 100%;
 }
 
 #steps .row {
