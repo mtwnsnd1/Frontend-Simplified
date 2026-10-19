@@ -295,7 +295,7 @@ body {
 /* Quality Work Section */
 #quality .row {
     display: flex;
-    justify-content: space-between;
+    gap: 48px;
     align-items: center;
 }
 
@@ -351,8 +351,8 @@ body {
 }
 
 .quality__img {
-    z-index: 1;
-    width: 100%;
+   z-index: 1;
+   width: 50%;
 }
 
 #steps .row {
