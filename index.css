@@ -303,6 +303,15 @@ body {
     height: 1.25;
 }
 
+.section__title {
+    font-size: 50px;
+    margin-bottom: 32px;
+}
+
+#quality .section__para {
+    color: rgb(113, 128, 150);
+}
+
 .btn {
     margin-top: 32px;
     border-radius: 9999px;
@@ -352,7 +361,7 @@ body {
 
 .quality__img {
    z-index: 1;
-   width: 50%;
+   width: 100%;
 }
 
 #steps .row {
