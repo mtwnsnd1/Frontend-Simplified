@@ -11,6 +11,10 @@ body {
     line-height: 1.5;
 }
 
+.purple {
+    color:#6415ff;
+}
+
 .nav {
     display: flex;
     padding-top: 32px;
@@ -152,7 +156,7 @@ body {
 }
 
 .section {
-    padding: 0px 32;
+    padding: 0px 32px;
 }
 
 .header .row {
@@ -229,6 +233,11 @@ body {
     margin-top: 16px;
     padding-right: 128px;
     opacity: 0.5;
+    width: 100%;
+}
+
+.header__customers--title {
+    color: rgb(124, 139, 161);
 }
 
 .header {
