@@ -1206,3 +1206,34 @@ main {
     }
 }
 
+@media (max-width: 768px) {
+    #quality .row,
+    #steps .row,
+    #values .row,
+    #Testimonials .row {
+        flex-direction: column;
+        gap: 32px;
+    }
+}
+
+.plans {
+    flex-direction: column;
+    align-items: center;
+}
+
+.quality__description,
+.quality__img--wrapper,
+.steps__description,
+.steps__img--wrapper,
+.values__description,
+.values__img,
+.testimonials__description,
+.testimonials__img {
+    width: 100%;
+}
+
+.section__title {
+    font-size: 32px;
+}
+
+
