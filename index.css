@@ -1216,24 +1216,64 @@ main {
     }
 }
 
-.plans {
-    flex-direction: column;
-    align-items: center;
-}
+    .plans {
+        flex-direction: column;
+        align-items: center;
+    }
 
-.quality__description,
-.quality__img--wrapper,
-.steps__description,
-.steps__img--wrapper,
-.values__description,
-.values__img,
-.testimonials__description,
-.testimonials__img {
-    width: 100%;
-}
+    .quality__description,
+    .quality__img--wrapper,
+    .steps__description,
+    .steps__img--wrapper,
+    .values__description,
+    .values__img,
+    .testimonials__description,
+    .testimonials__img {
+        width: 100%;
+    }
 
-.section__title {
-    font-size: 32px;
-}
+    .section__title {
+        font-size: 32px;
+    }
+
+    .header .row {
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+    }
+
+    .header__description {
+        width: 100%;
+        text-align: center;
+    }
+
+    .header__description h1 {
+        font-size: 32px;
+        line-height: 1.3;
+    }
+
+    .header__description--para {
+        margin: 24px 0;
+    }
+
+    .header__img--wrapper {
+        width: 100%;
+    }
+
+    .header__img {
+        width: 100%;
+        height: auto;
+    }
+    .header__email {
+        margin: 0 auto;
+    }
+
+    .header__customers {
+        padding-right: 0;
+        max-width: 100%;
+    }
+
+
+
 
 
