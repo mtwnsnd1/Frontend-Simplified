@@ -11,6 +11,13 @@ body {
     line-height: 1.5;
 }
 
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
 .purple {
     color:#6415ff;
 }
@@ -1194,7 +1201,6 @@ main {
     .footer {
         flex-direction: column;
         align-items: flex-start;
-        display: none;
     }
 
     .nav__links {
@@ -1214,7 +1220,6 @@ main {
         flex-direction: column;
         gap: 32px;
     }
-}
 
     .plans {
         flex-direction: column;
@@ -1272,6 +1277,11 @@ main {
         padding-right: 0;
         max-width: 100%;
     }
+
+    .feature {
+        width: 100%;
+    }
+}
 
 
 
