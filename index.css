@@ -1298,6 +1298,7 @@ main {
     .feature {
         margin: 0 auto;
         max-width: 384px;
+        width: 100%;
     }
 
     .section__para {
@@ -1397,12 +1398,6 @@ main {
     .header__customers {
         padding-right: 0;
         max-width: 100%;
-    }
-
-   .feature__row {
-        display: flex;
-        align-items: flex-start;
-        text-align: center;
     }
 }
 
